@@ -160,3 +160,16 @@ font-weight: bold;
 }
 
 /* choose your destination */
+.h1,.p{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+}
+.h1{
+    margin-bottom: 1em;
+    font-size: 45px;
+}
+.p{
+    line-height: 1.5em;
+    color: gray;
+}
