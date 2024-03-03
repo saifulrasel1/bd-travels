@@ -183,6 +183,12 @@ section {
     color: gray;
 }
 
+
+
+
+
+
+
 /* destionation  */
 .destination-img {
     margin: 1em;
@@ -212,4 +218,137 @@ section {
     height: 300px;
     position: relative;
     height: 300px;
+}
+
+
+/* deals section  */
+.deals{
+    position: relative;
+}
+.deals-img{
+    width: 100%;
+    margin:1em 0;
+}
+.deals-img img {
+    width: 100%;
+    height: 600px;
+  
+}
+
+.deals-info {
+    background-color: #ebe6e6;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 2em;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+.deals-info2{
+    background-color: #ebe6e6;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 2em;
+    position: absolute;
+    top: 30%;
+   left:20%
+}
+.deals-info h1{
+    font-size: 30px;
+    margin: 0.5em 0;
+}
+.deals-info p{
+    color: gray;
+    margin: 0.9em 0;
+}
+.deals-info h3{
+    color:rgb(207, 20, 20);
+    font-size: 25px;
+    margin: 0.5em 0;
+}
+.day,.max,.location{
+    margin-right: 1em;
+    color: gray;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* newsletter section  */
+.newsletter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+
+
+}
+
+.newsletter-info {
+    width: 40%;
+    margin: auto;
+    padding: 2em;
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+
+}
+
+.newsletter-info input {
+    width: 50%;
+    padding: 12px;
+    background-color: azure;
+    border-radius: 10px;
+
+
+}
+
+.newsletter-info button {
+    padding: 12px 24px;
+    width: 50%;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.newsletter-info h1 {
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+.newsletter-info p,
+hr {
+    margin-bottom: 1em;
+}
+
+.newsletter-img,
+hr {
+    width: 50%;
+}
+
+.newsletter-img img {
+    width: 100%;
+    height: 400px;
 }
