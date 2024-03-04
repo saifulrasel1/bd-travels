@@ -212,10 +212,66 @@ section {
 }
 
 
+
+/* choose section  */
+.choose-heading{
+    text-align: center;
+}
+
+
+
+
 /* deals section  */
 .deals {
     position: relative;
 }
+
+.choose-cards{
+    margin: auto;
+    width: 100%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+.card span{
+    font-size: 3em;
+    color: orangered;
+}
+.card-1{
+    flex: 1;
+    position: relative;
+    background-color: #ebe6e6;
+    margin: 20px;
+    padding: 2em;
+    border-radius: 15px;
+
+}
+.card-2{
+    width: 50%;
+    position: relative;
+    background-color: #ebe6e6;
+    padding: 2em;
+    border-radius: 15px;
+    margin: auto;
+}
+.card-1 h1,.card-2 h1{
+    font-size: 25px;
+    margin-bottom: 1em;
+    margin-top: 0.8em;
+}
+
+
+
+
+
+
+
+
+
 
 .deals-heading {
     font-size: 30px;
@@ -419,15 +475,18 @@ footer {
 @media screen and (max-width:680px) {
     section {
         margin-top: 0em;
-        padding:1em 2em;
+        padding: 1em 1em;
         width: 100%;
     }
- .header-logo h2 {
-    font-size: 14px;
- }
- .header-logo img{
-    width: 30px;
- }
+
+    .header-logo h2 {
+        font-size: 14px;
+    }
+
+    .header-logo img {
+        width: 30px;
+    }
+
     .header ul {
         display: none;
     }
@@ -448,7 +507,7 @@ footer {
         height: 200px;
         padding: 0;
         margin-top: 0em;
-
+        left: 45%;
     }
 
     .gradient {
@@ -471,7 +530,7 @@ footer {
     .input-div {
         margin-top: 0em;
         padding: 1em 0.9em;
-        width: 250px;
+        width: 240px;
         height: 250px;
     }
 
@@ -488,15 +547,14 @@ footer {
     /* popular ::selection */
     .popular {
         flex-direction: column;
-
+        gap: 1em;
     }
 
     .popular-info {
         width: 100%;
         line-height: 1.5em;
-        padding: 0em 0.5em;
-        height: 500px;
-
+        padding: 0em;
+        height: 550px;
     }
 
     .popular-info h1 {
@@ -546,4 +604,111 @@ footer {
     .img img {
         width: 100%;
     }
+
+    /* deals section  */
+    .deals-heading {
+        font-size: 20px;
+    }
+
+    .deals-heading-info {
+        margin-bottom: 2em;
+    }
+
+    .deals-img img {
+        height: 400px;
+    }
+
+    .deals-info {
+        width: 300px;
+        height: 230px;
+        padding: 1em 1em;
+        left: 7%;
+        top: 30%;
+    }
+
+    .deals-info2 {
+        width: 300px;
+        height: 230px;
+        padding: 1em 1em;
+        left: 7%;
+        top: 30%;
+    }
+
+    .deals-info p,
+    .deals-info2 p {
+        margin: 0.2em 0;
+        font-size: 14px;
+    }
+
+    .deals-info h1,
+    .deals-info2 h1 {
+        font-size: 20px;
+        margin: 0.2em;
+    }
+
+    .deals-info h3,
+    .deals-info2 h3 {
+        font-size: 18px;
+        margin: 0.2em;
+    }
+
+    .day,
+    .max,
+    .location {
+        margin-right: 0.5em;
+        color: gray;
+
+    }
+
+    /* newsletter section  */
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .newsletter-info {
+        width: 100%;
+        border-radius: 25px;
+    }
+
+    .newsletter-info input {
+        width: 100%;
+    }
+
+    .newsletter-info button {
+        width: 100%;
+    }
+
+    .newsletter-img,
+    hr {
+        width: 100%;
+    }
+    footer {
+        height: 250px;
+        margin-top: 1.5em;
+    }
+    .footer-heading {
+        
+        padding-top: 1em;
+    }
+    .footer-heading h1, .footer-heading img{
+        font-size: 19px;
+    }
+    .footer p {
+
+        margin: 1em 4em;
+    }
+    .footer h6 {
+        text-align: center;
+        font-size: 17px;
+        margin-top: 0.5em;
+    }
+    .footer-logo span {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .footer-logo {
+        font-size: 20px;
+    }
+    
+
 }
